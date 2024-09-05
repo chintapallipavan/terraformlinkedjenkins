@@ -6,12 +6,3 @@ resource "local_file" "hello" {
       ignore_changes = [ content ]
     }
 }
-variable "pavan" {
-    type = list(string)
-    default = [
-        "hi.txt",
-        "hello.txt",
-         "gen.txt"
-    ]
-  
-}
